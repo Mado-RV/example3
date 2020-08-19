@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The select element</h1>
+
+<p>The select element is used to create a drop-down list.</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select name="cars" id="cars">
+  
+    <optgroup label="Department of sciences">
+    	<option value="Maths">Maths</option>
+        <option value="Maths">Info</option>
+        <option value="Maths">suic</option>
+    </optgroup>
+    
+    <optgroup label="Halex">
+    	<option value="juims">juims</option>
+    </optgroup>
+    
+   <optgroup label="Healty">
+    	<option value="jokes">jokes</option>
+    </optgroup>
+    
+   <optgroup label="Department of sciences">
+    	<option value="Maths">Maths</option>
+   </optgroup>
+    
+    
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>halaaaa</p>
+
+</body>
+</html>
